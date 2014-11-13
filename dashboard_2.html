@@ -35,13 +35,7 @@
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Juan Fica</strong>
                              </span> <span class="text-muted text-xs block">Compañia 47</b></span> </span> </a>
-                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <li><a href="profile.html">Profile</a></li>
-                                <li><a href="contacts.html">Contacts</a></li>
-                                <li><a href="mailbox.html">Mailbox</a></li>
-                                <li class="divider"></li>
-                                <li><a href="login.html">Logout</a></li>
-                            </ul>
+                       
                         </div>
                         <div class="logo-element">
                             IN+
@@ -420,7 +414,7 @@
                     <div class="col-lg-4">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
-                                <h5>Messages</h5>
+                                <h5>Mensajes</h5>
                                 <div class="ibox-tools">
                                     <a class="collapse-link">
                                         <i class="fa fa-chevron-up"></i>
@@ -505,12 +499,11 @@
                     </div>
 
                     <div class="col-lg-8">
-
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-12">
                                 <div class="ibox float-e-margins">
                                     <div class="ibox-title">
-                                        <h5>User project list</h5>
+                                        <h5>Transacciones</h5>
                                         <div class="ibox-tools">
                                             <a class="collapse-link">
                                                 <i class="fa fa-chevron-up"></i>
@@ -525,14 +518,14 @@
                                             <thead>
                                             <tr>
                                                 <th>Status</th>
-                                                <th>Date</th>
-                                                <th>User</th>
-                                                <th>Value</th>
+                                                <th>Fecha</th>
+                                                <th>Compañia</th>
+                                                <th>País</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td><small>Pending...</small></td>
+                                                <td><small>Pendiente...</small></td>
                                                 <td><i class="fa fa-clock-o"></i> 11:20pm</td>
                                                 <td>Samantha</td>
                                                 <td class="text-navy"> <i class="fa fa-level-up"></i> 24% </td>
@@ -578,56 +571,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="ibox float-e-margins">
-                                    <div class="ibox-title">
-                                        <h5>Small todo list</h5>
-                                        <div class="ibox-tools">
-                                            <a class="collapse-link">
-                                                <i class="fa fa-chevron-up"></i>
-                                            </a>
-                                            <a class="close-link">
-                                                <i class="fa fa-times"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="ibox-content">
-                                        <ul class="todo-list m-t small-list">
-                                            <li>
-                                                <a href="#" class="check-link"><i class="fa fa-check-square"></i> </a>
-                                                <span class="m-l-xs todo-completed">Buy a milk</span>
-
-                                            </li>
-                                            <li>
-                                                <a href="#" class="check-link"><i class="fa fa-square-o"></i> </a>
-                                                <span class="m-l-xs">Go to shop and find some products.</span>
-
-                                            </li>
-                                            <li>
-                                                <a href="#" class="check-link"><i class="fa fa-square-o"></i> </a>
-                                                <span class="m-l-xs">Send documents to Mike</span>
-                                                <small class="label label-primary"><i class="fa fa-clock-o"></i> 1 mins</small>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="check-link"><i class="fa fa-square-o"></i> </a>
-                                                <span class="m-l-xs">Go to the doctor dr Smith</span>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="check-link"><i class="fa fa-check-square"></i> </a>
-                                                <span class="m-l-xs todo-completed">Plan vacation</span>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="check-link"><i class="fa fa-square-o"></i> </a>
-                                                <span class="m-l-xs">Create new stuff</span>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="check-link"><i class="fa fa-square-o"></i> </a>
-                                                <span class="m-l-xs">Call to Anna for dinner</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                           
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
@@ -808,7 +752,7 @@
 
             var dataset = [
                 {
-                    label: "Number of orders",
+                    label: "Patrimonio",
                     data: data3,
                     color: "#1ab394",
                     bars: {
@@ -819,7 +763,7 @@
                     }
 
                 }, {
-                    label: "Payments",
+                    label: "Ventas",
                     data: data2,
                     yaxis: 2,
                     color: "#464f88",
